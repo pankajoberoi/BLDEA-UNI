@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My portfolio</h1>
+      <nav>
+        <a href="#about-me">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact me</a>
+      </nav>
+      <hr />
+    </header>
+
+    <!-- About Me -->
+    <section id="about-me">
+      <h2>About me</h2>
+      <p>Hello! My name is khan I am not a terrorist</p>
+      <img
+        src="https://th.bing.com/th/id/OIP.QB4Dl5HLYKmdt1dJlbIKxQHaLI?rs=1&pid=ImgDetMain"
+        alt=""
+        height="100"
+        width="100" />
+    </section>
+
+    <!-- Skill section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>
+          Technical Skills
+          <ol type="A">
+            <li>Java</li>
+            <li>Python</li>
+          </ol>
+        </li>
+        <li>
+          Creative Skills
+          <ol>
+            <li>ui/ux</li>
+            <li>Cooking</li>
+          </ol>
+        </li>
+        <li>
+          Analytical Skills
+          <ol>
+            <li>problem Solving</li>
+            <li>No thinking</li>
+          </ol>
+        </li>
+        <li>
+          Soft Skills
+          <ol>
+            <li>Communication</li>
+            <li>Team Work</li>
+          </ol>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Project table -->
+    <section id="projects">
+      <table border="2">
+        <thead>
+          <caption>
+            Project Table
+          </caption>
+          <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Technologies</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Banking System</td>
+            <td>Dost se banwaya</td>
+            <td>Java</td>
+            <td>2001</td>
+          </tr>
+
+          <tr>
+            <td>Attendance System</td>
+            <td>Hai nhi meri</td>
+            <td>Python</td>
+            <td>kal hi bnaya</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <article>
+        <h3>Web Developer</h3>
+        <p>Company Name : Chennai super kings</p>
+        <p>Duration : Chal hi rha hai</p>
+      </article>
+
+      <article>
+        <h3>Intern</h3>
+        <p>Company Name : Punjab Kings</p>
+        <p>Duration : Khatam</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="">
+        <div>
+          <label for="name">Name : </label>
+          <input type="text" id="name" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="mail">Email : </label>
+          <input type="email" id="mail" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="num">Phone number : </label>
+          <input type="number" id="num" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="en">inquiry : </label>
+          <select>
+            <option value="">Feedback</option>
+            <option value="">Collaboration</option>
+            <option value="">Others</option>
+          </select>
+        </div>
+        <br />
+
+        <div>
+          <label for="term">Terms and Cond. </label>
+          <input type="checkbox" id="term" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="">Feedback :</label>
+          <textarea rows="5" cols="10"></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
