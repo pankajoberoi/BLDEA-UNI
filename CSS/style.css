@@ -1,0 +1,9 @@
+/* external css */
+#box1{
+    background-color: yellow;
+    color: green;
+}
+.box2{
+    color: green;
+    background-color: yellow;
+}
