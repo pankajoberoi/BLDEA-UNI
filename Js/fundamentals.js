@@ -94,10 +94,10 @@
 // Strings , string templates /template litrals
 
 
-const name="Pankaj"
-const job="Trainer"
-const birthyear=2000
-const year=2024;
+// const name="Pankaj"
+// const job="Trainer"
+// const birthyear=2000
+// const year=2024;
 
 
 
@@ -108,4 +108,38 @@ const year=2024;
 // const profile = `I am ${name} my job is ${job} i am ${year-birthyear} years old`
 
 // console.log(profile)
+
+// let table=prompt("Which table you want to print");
+
+// for(let i=1;i<=10;i++){
+//     console.log(table + " x " + i + " = " + (table*i));
+// }
+
+
+let user1=prompt("Enter a number btw 1 to 100")
+
+if(user1>1 && user1<100){
+    alert("User2 please guess the number btw 1 to 100")
+    let user2;
+    let guess=0;
+    do{
+        user2=prompt("guess a number!");
+        if(user2>user1){
+            alert("Entered number is greater than original")
+        }
+        else if(user2<user1){
+            alert("Entered number is smaller than original")
+        }
+        guess++;
+    }while(user1!=user2)
+
+    alert("You guess it !!! It took "+ guess + " guesses to guess the number")
+
+}
+else{
+    alert("Enter a valid number")
+}
+
+
+
 
